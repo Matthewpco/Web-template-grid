@@ -1,0 +1,148 @@
+
+body {
+  line-height: 1;
+  background: white;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 50px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto 500px 200px auto;
+  grid-auto-rows: minmax(200, auto);
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.box1 {
+  background:#0A431A;
+  grid-column: 1 / 13;
+  padding: 20px;
+  justify-items: center;
+
+}
+  nav {
+    display: grid;
+    justify-items: end;
+    grid-template-columns: 6fr 1fr 1fr ;
+
+  }
+
+
+.box2 {
+  background: #A6CD38;
+  padding: 20px;
+  grid-column: 1 / 9;
+  grid-row: 2 / 3;
+}
+
+.box3 {
+  background: #D91A1A;
+  padding: 20px;
+  grid-column: 9 / 13;
+}
+
+.box4 {
+  background: #E0E0E0;
+  padding: 20px;
+  grid-column: 1 / 7;
+}
+
+.box5 {
+  background: #E0E0E0;
+  padding: 20px;
+  grid-column: 7 / 13;
+
+}
+
+.box6 {
+  background: #8C3B0B;
+  padding: 20px;
+  grid-column:  1 / 13;
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto 200px auto;
+    grid-auto-rows: minmax(200, auto);
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+  
+  .box1 {
+    background:#0A431A;
+    grid-column: 1 / 13;
+    padding: 20px;
+    justify-items: center;
+  }
+  
+  .box2 {
+    background: #A6CD38;
+    padding: 20px;
+    grid-column: 1 / 13;
+    grid-row: 2 / 3;
+  }
+  
+  .box3 {
+    background: #D91A1A;
+    padding: 20px;
+    grid-column: 1 / 13;
+  }
+  
+  .box4 {
+    background: #E0E0E0;
+    padding: 20px;
+    grid-column: 1 / 7;
+  }
+  
+  .box5 {
+    background: #E0E0E0;
+    padding: 20px;
+    grid-column: 7 / 13;
+  
+  }
+  
+  .box6 {
+    background: #8C3B0B;
+    padding: 20px;
+    grid-column:  1 / 13;
+  }
+}
