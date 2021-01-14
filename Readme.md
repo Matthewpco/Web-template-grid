@@ -1,22 +1,12 @@
 
 
-![]()
+![](https://github.com/Matthewpco/Web-template-grid/blob/master/web-template-css-img.png?raw=true)
 
-# This is my version of Pong made in Love with Lua and OO programming. 
-
-<br>
-
-## 🙋‍♂️ Introduction 
-
-- Developed while in Harvard's GD50 Game Dev class
+# This is a CSS grid bootstrap style web template.
 
 <br>
 
 ## ⚡ Features
-- Lua with Love
-- OO programming
-
-<br>
-
-
-Copyright: Matthew Payne 
+- HTML 5
+- CSS 3
+- CSS Grid
